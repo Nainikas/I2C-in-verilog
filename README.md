@@ -71,6 +71,7 @@ Run a testbench to simulate the behavior of the I2C controller. Ensure the follo
 1. The `SDA` line transmits the correct slave address.
 2. The acknowledgment is detected accurately.
 3. The `STOP` condition is generated after the transaction.
+4. Make sure to run the simulation for at least 5us.
 
 ## Example Simulation Output
 
